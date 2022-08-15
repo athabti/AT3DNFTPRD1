@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>AT3DNFT</title>
+    <!--<link
+    rel="icon"
+    href=""
+    type="image/x-icon"/>
+    -->
+    <link rel="stylesheet" href="./mainAT.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"/>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+  
+
+    <style>
+    body {
+      background-color: rgb(57, 57, 195);
+    }
+    
+    h1 {
+      color: white;
+      text-align: center;
+    }
+    
+    p {
+      font-family: verdana;
+      font-size: 5 px;
+    }
+
+    div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+</style>
+    <script src="./index3dNFT.js" type="module"></script>
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+
+
+<div class="fixed" >
+<p style="font-size: 20px; color: white"> Move your mouse over the blue area around the cube.<br>
+    Hold your mouse button down and drag...<br>
+    You will rotate the "cube."</style></p>
+</div>
+    </style>
+</head>
+
+  </style>
+  </head>
+  <body>
+    
+  <!--<h1>Demo AT</h1>
+  <p style = "color: aliceblue" ; font-size:25px>Paris 2022 Defi ETHCC 5 </style></p>
+  -->
+  
+ 
+<div id="container" 
+ style="position:relative;
+            left:0%;
+            top:10%;
+            z-index:110;">
+
+
+<div id="blocker"></div>
+<div style="position:absolute;
+            left:10px;
+            top:20px;
+            z-index:100;">
+            
+    
+  
+ <!---- <script src="./index.js" type="module"></script> --->
+</div>
+
+<form onsubmit="return false">
+	<div class="row g-3">
+		<div class="col-sm">
+			<label class="form-label"; style="font-size: 15px; color: white">@mail</label>
+			<input class="form-control" type="text" id="nft_name" required/>
+		</div>
+
+		<div class="col-sm">
+			<label class="form-label"; style="font-size: 15px; color: white">NFT Data 1 Num</label>
+			<input class="form-control" type="number" id="nft_width" required/>
+		</div>
+
+		<div class="col-sm">
+			<label class="form-label"; style="font-size: 15px; color: white">NFT Data 2 Num</label>
+			<input class="form-control" type="number" id="nft_height" required/>
+		</div>
+
+		<div class="col-sm">
+			<label class="form-label"; style="font-size: 15px; color: white">NFT Data Num</label>
+			<input class="form-control" type="number" id="nft_depth" required/>
+		</div>
+
+		<div class="col-sm">
+			<label class="form-label"; style="font-size: 15px; color: white">NFT Data Num</label>
+			<input class="form-control" type="number" id="nft_x" required/>
+		</div>
+
+		<div class="col-sm">
+			<label class="form-label"; style="font-size: 15px; color: white">NFT Data 5</label>
+			<input class="form-control" type="number" id="nft_y" required/>
+		</div>
+
+		<div class="col-sm">
+			<label class="form-label"; style="font-size: 15px; color: white" >NFT Data 5</label>
+			<input class="form-control" type="number" id="nft_z" required/>
+		</div>
+
+		<button id="mint" type="submit" class="mint" >
+			To mint this NFT : fill in  all the fields above , connect to polygon testnet Blockchain  network   and click here
+		</button>
+	</div>
+	</form>
+<!---
+	<div  class="row g-3">
+		<button id="profit" type="submit" class="btn btn-danger">
+			Profit extraction
+		</button>
+	</div>
+-->
+  </body>
+</html>
